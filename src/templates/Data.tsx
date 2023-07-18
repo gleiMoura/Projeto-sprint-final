@@ -21,7 +21,7 @@ const Data: FC = () => {
                     Garanta seu sucesso no ENEM com nossas aulas! Inscreva-se agora!</h2>
             </Text>
             <Section>
-                <Form ref={formRef} onSubmit={handleSubmit} action='https://formsubmit.co/profbmoura@gmail.com' method='POST'>
+                <Form ref={formRef} onSubmit={handleSubmit} action='https://formsubmit.co/gle.bar.mou@gmail.com' method='POST'>
                     <div className='input-card'>
                         <img src={Name} width="50px" />
                         <input type="text" name="name" placeholder='Qual é o seu lindo nome?' required />
