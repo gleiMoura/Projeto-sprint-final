@@ -9,9 +9,11 @@ const Data: FC = () => {
     const formRef = useRef<HTMLFormElement>(null);
 
     const handleSubmit = () => {
-        if (formRef.current) {
-            formRef.current.reset();
-        }
+        setTimeout(() => {
+            if (formRef.current) {
+                formRef.current.reset();
+            }
+        }, 1000)
     }
 
     return (
