@@ -104,12 +104,14 @@ const Form = styled.form`
         color: #fff;
         border: none;
         border-radius: 5px;
-        margin-top: 20px
+        margin-top: 20px;
+        cursor: pointer
     }
 
     .button-card {
         display: flex;
         justify-content: center;
-        width: 300px,
+        width: 300px;
+        cursor: pointer
     }
 `
